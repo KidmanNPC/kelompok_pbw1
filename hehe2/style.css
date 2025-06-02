@@ -1,0 +1,324 @@
+.nav-link{
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.navbar-brand h3{
+    color: #4682d4;
+}
+
+button a{
+    color: #000;
+    text-decoration: none;
+}
+
+button a:hover{
+    color: #000;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-color: #4682d4 ;
+    width: auto;
+    height: 668px;
+}
+
+.row{
+    padding-top: 210px;
+}
+
+.jumbotron h1{
+    padding-top: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.jumbotron h4{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.negara{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+/* content */
+.flag-content{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.row-content{
+    padding-top: 100px;
+}
+
+.img-content{
+    margin-top: -75px;
+    width: auto;
+    height: 450px;
+}
+
+/* white text */
+.white {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.subwhite {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+/* black text */
+.black{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* indonesia */
+#indonesia{
+    background-color: #b21d5d;
+    width: auto;
+    height: 668px;
+}
+
+/* amerika */
+#amerika{
+    background-color: #ffffff;
+    width: auto;
+    height: 668px;
+}
+
+
+/* britania */
+#britania{
+    background-color: #e5e515;
+    width: auto;
+    height: 668px;
+}
+/* eropa */
+#eropa{
+    background-color: #f37a1f;
+    width: auto;
+    height: 668px;
+}
+/* jepang */
+#jepang{
+    background-color: #00a390;
+    width: auto;
+    height: 668px;
+}
+/* china */
+#china{
+    background-color: #b21d5d;
+    width: auto;
+    height: 668px;
+}
+/* korea */
+#korea{
+    background-color: #0dabdb;
+    width: auto;
+    height: 668px;
+}
+/* arab */
+#arab{
+    background-color: #4eb849;
+    width: auto;
+    height: 668px;
+}
+/* filiphina */
+#filipin{
+    background-color: #d21e41;
+    width: auto;
+    height: 668px;
+}
+/* malay */
+#malay{
+    background-color: #744897;
+    width: auto;
+    height: 668px;
+}
+/* thailand */
+#thailand{
+    background-color: #0356a4;
+    width: auto;
+    height: 668px;
+}
+/* australia */
+#australia{
+    background-color: #7a89c0;
+    width: auto;
+    height: 668px;
+}
+
+
+/* about us */
+#about{
+    background-color: #0dabdb;
+    width: auto;
+    height: 668px;
+}
+
+.card{
+    margin-top: -100px;
+    width: 18rem;
+}
+
+.card-img-top{
+    border-radius: 100%;
+}
+
+/* contact */
+#contact{
+    background-color: #744897;
+    width: auto;
+    height: 668px;
+}
+/* footer */
+#sosmed{
+    padding: 10px;
+}
+
+footer{
+    background-color: black; 
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: gray; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    text-align: center; 
+    padding-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #a8a8ac;
+}
+
+footer a:hover{
+    color: gold;
+}
+
+/* landscape phone */
+@media (max-width: 767.98px) {
+    .row{
+        padding-top: 100px;
+        align-items: center;
+    }
+    .jumbotron h1{
+        padding-top: 0;
+    }
+    .image{
+        padding-top: 40px;
+        height: 300px;
+    }
+    .col-lg-6{
+        text-align: center;
+    }
+    .col-lg-4{
+        text-align: center;
+    }
+
+    /* content */
+    /* amerika */
+    #amerika{
+        height: 1000px;
+    }
+
+    .img-content{
+        margin-top: 40px;
+        height: 400px;
+    }
+
+    /* britania */
+    #britania{
+        height: 1000px;
+    }
+    /* eropa */
+    #eropa{
+        height: 1000px;
+    }
+    /* jepang */
+    #jepang{
+        height: 1000px;
+    }
+    /* china */
+    #china{
+        height: 1000px;
+    }
+    /* korea */
+    #korea{
+        height: 1000px;
+    }
+    /* arab */
+    #arab{
+        height: 1000px;
+    }
+    /* filipin */
+    #filipin{
+        height: 1000px;
+    }
+    /* malay */
+    #malay{
+        height: 1000px;
+    }
+    /* thailand */
+    #thailand{
+        height: 1000px;
+    }
+    /* australia */
+    #australia{
+        height: 1000px;
+    }
+    /* indonesia */
+    #indonesia{
+        height: 1000px;
+    }
+
+    /* about */
+    #about{
+        height: 1400px;
+    }
+
+    /* contact */
+    #contact{
+        height: 800px;
+    }
+
+    .card{
+        width: 18rem;
+        margin-top: 10px;
+        align-items: center;
+    }
+}
+
+/* potrait phone */
+@media (max-width: 575.98px) {
+    .negara{
+        height: 25px;
+        width: 25px;
+    }
+    .image{
+        padding-top: 40px;
+        height: 200px;
+    }
+    
+    .img-content{
+        margin-top: 40px;
+        height: 200px;
+    }
+}

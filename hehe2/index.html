@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chitanda | Konversi Mata Uang</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- script bootstap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h3>Chitanda</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mata Uang
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#indonesia">Indonesia (IDR)</a></li>
+                <li><a class="dropdown-item" href="#amerika">Amerika (USD)</a></li>
+                <li><a class="dropdown-item" href="#britania">Britania raya (GBP)</a></li>
+                <li><a class="dropdown-item" href="#eropa">Uni Eropa (EUR)</a></li>
+                <li><a class="dropdown-item" href="#jepang">Jepang (JPY)</a></li>
+                <li><a class="dropdown-item" href="#china">China (CNY)</a></li>
+                <li><a class="dropdown-item" href="#korea">Korea Selatan (KRW)</a></li>
+                <li><a class="dropdown-item" href="#arab">Saudi Arabia (SAR)</a></li>
+                <li><a class="dropdown-item" href="#filipin">Filipina (PHP)</a></li>
+                <li><a class="dropdown-item" href="#malay">Malaysia (MYR)</a></li>
+                <li><a class="dropdown-item" href="#thailand">Thailand (THB)</a></li>
+                <li><a class="dropdown-item" href="#australia">Australia (AUD)</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact">FAQ & Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!-- jumbotron -->
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>konversi mata uang</h1>
+              <h4>lihat nilai uang rupiahmu di mata uang lain</h4>
+              <tr>
+                <td>
+                  <img class="negara" src="img/indonesia.jpg" alt="indonesia">
+                </td>
+                <td>
+                  <img  class="negara" src="img/amerika.png" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/arab.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/ausy.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/britania.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/china.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/denmark.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/eropa.png" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/flipin.png" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/jepang.jpg" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/korea.png" alt="negara">
+                </td>
+                <td>
+                  <img  class="negara" src="img/malay.jpg" alt="negara">
+                </td>
+              </tr>
+            </div>
+            <div class="col-lg-6 image">
+              <img class="image" src="img/maps.png" alt="maps" width="auto" height="300">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+      <!-- indonesia -->
+      <section id="indonesia">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/indonesia.jpg" alt="indonesia">  
+              <h1 class="white">Indonesia</h1>
+              <h2 class="subwhite">Rupiah (IDR)</h2><br>
+              <button type="button" class="btn btn-primary"><a href="Indonesia.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/monas.png" alt="monas">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- amerika -->
+      <section id="amerika">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/amerika.png" alt="amerika">  
+              <h1 class="black">United States of Amerika</h1>
+              <h2>US Dollar (USD)</h2><br>
+              <button type="button" class="btn btn-primary"><a href="amerika.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/liberti.png" alt="liberti">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- britania -->
+      <section id="britania">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/britania.jpg" alt="britania">  
+              <h1 class="black">Britania Raya</h1>
+              <h2>Poundsterling (GBP)</h2><br>
+              <button type="button" class="btn btn-primary"><a href="britania.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/bigban.png" alt="bigban">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- eropa -->
+      <section id="eropa">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/eropa.png" alt="eropa">  
+              <h1 class="white">Uni Eropa</h1>
+              <h2 class="subwhite">Euro (EUR)</h2><br>
+              <button type="button" class="btn btn-light"><a href="eropa.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/eifell.png" alt="eifell">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- jepang -->
+      <section id="jepang">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/jepang.jpg" alt="jepang">  
+              <h1 class="white">Jepang</h1>
+              <h2 class="subwhite">Yen (JPY)</h2><br>
+              <button type="button" class="btn btn-light"><a href="jepang.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/sakura.png" alt="sakura">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- china -->
+      <section id="china">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/china.jpg" alt="eropa">  
+              <h1 class="white">China</h1>
+              <h2 class="subwhite">Yuan (CNY)</h2><br>
+              <button type="button" class="btn btn-light"><a href="china.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/budha cina.png" alt="budha">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- korea selatan -->
+      <section id="korea">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/korea.png" alt="korea">  
+              <h1 class="black">Korea Selatan</h1>
+              <h2>Won (KRW)</h2><br>
+              <button type="button" class="btn btn-light"><a href="korea.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/gangnam.png" alt="gangnam">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- arab -->
+      <section id="arab">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/arab.jpg" alt="arab">  
+              <h1 class="white">Saudi Arabia </h1>
+              <h2 class="subwhite">Riyal (SAR)</h2><br>
+              <button type="button" class="btn btn-light"><a href="arab.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/kakbah.png" alt="kakbah">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- filipin -->
+      <section id="filipin">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/flipin.png" alt="filipin">  
+              <h1 class="white">Filipina</h1>
+              <h2 class="subwhite">Peso (PHP)</h2><br>
+              <button type="button" class="btn btn-light"><a href="filipina.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/pilipin.png" alt="pilipin">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- malay -->
+      <section id="malay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/malay.jpg" alt="malay">  
+              <h1 class="white">Malaysia</h1>
+              <h2 class="subwhite">Ringgit (MYR)</h2><br>
+              <button type="button" class="btn btn-light"><a href="Malaysia.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/menara.png" alt="menara">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- thailand -->
+      <section id="thailand">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/thailand.jpg" alt="thailand">  
+              <h1 class="white">thailand</h1>
+              <h2 class="subwhite">Baht (THB)</h2><br>
+              <button type="button" class="btn btn-light"><a href="Thailand.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/gajah.png" alt="gajah">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- australia -->
+      <section id="australia">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="flag-content" src="img/ausy.jpg" alt="australia">  
+              <h1 class="black">Australia</h1>
+              <h2>Dollar Australia (AUD)</h2><br>
+              <button type="button" class="btn btn-light"><a href="Australia.html">Konversi</a></button>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-content"src="img/keong.png" alt="keong">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about us -->
+      <section id="about">
+        <div class="container">
+          <div class="row about-content">
+            <div class="col-lg-4">
+              <div class="card" align="center">
+                <img src="img/andika.webp" class="card-img-top" alt="Andika">
+                <div class="card-body">
+                  <h5>Andika Hartanta</h5>
+                  <h6>2310631170067</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" align="center">
+                <img src="img/nate.jpg" class="card-img-top" alt="David">
+                <div class="card-body">
+                  <h5>David Nathan Sampul</h5>
+                  <h6>2310631170157</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" align="center">
+                <img src="img/rizky.jpeg" class="card-img-top" alt="Rizky">
+                <div class="card-body">
+                  <h5>Rizky Baruna</h5>
+                  <h6>2310631170115</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact us -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="white">FAQ</h1>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Apa itu Chitanda?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Chitanda adalah website untuk mengkonversi mata uang</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      kenapa harus Chitanda?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Dengan Chitanda kamu dapat mengkonversi 12 mata uang negara didunia </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Apa keunggulan Chitanda?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Di Chitanda kamu dapat mengetahui nilai mata uang 12 negara dan belajar sejarah dari setiap mata uang 12 negara </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="white">Contact US</h1>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label subwhite">Nama Anda</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label subwhite">Email</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Comments</label>
+                </div><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="container" style="padding: 10px; text-align: center;">
+          <a class="link" href="#">Home</a>
+          <a class="link" href="#amerika">Mata Uang</a>
+          <a class="link" href="#about">About Us</a>
+          <a class="link" href="#contact">Contact Us</a>
+        </div>
+        <div class="container" style="text-align: center;">
+          <h6 id="sosmed"style="color: gray;">Connect With Us</h6>
+          <a id="sosmed" href="instagram.com"><img src="img/ig.png" alt="instagram" style="width: 20px; height: 20px;"></a>
+          <a id="sosmed" href="twitter.com"><img src="img/twitter.png" alt="twitter" style="width: 20px; height: 20px;"></a>
+          <a id="sosmed" href="youtube.com"><img src="img/yt.png" alt="yt" style="width: 20px; height: 20px;"></a>
+          <a id="sosmed" href="facebook.com"><img src="img/fb.png" alt="fb" style="width: 20px; height: 20px;"></a>
+        </div>
+        <p>2025 | Chitanda | Money Converter <a class="link"href="#">| Privasi Policy</a></p>
+      </footer>
+</body>
+</html>

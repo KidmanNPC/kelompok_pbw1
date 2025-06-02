@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chitanda | Konversi Mata Uang</title>
+    <!-- my css -->
+	<link rel="stylesheet" href="style-content.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- script bootstap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script-content1.js"></script>
+</head>
+<body>
+	<!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><h3> Chitanda</h3></a>
+		</div>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<!-- Filipina -->
+	<section id="filipin">
+		<div class="container">
+            <center>
+                <img class="flag-content" src="img/flipin.png" alt="filipina">
+                <h1 class="white">Filipina</h1>
+                <p class="paragraf subwhite">Peso Filipina dengan kode: PHP adalah mata uang resmi di Filipina. Peso ini dibagi menjadi 100 centavo. Sebelum tahun 1967, bahasa yang digunakan pada uang kertas dan koin adalah bahasa Inggris, dan sebagainya “peso” adalah nama yang digunakan. Ketika bahasa yang digunakan diubah menjadi bahasa Cebuano, ini berubah menjadi “piso”. Peso biasanya dilambangkan dengan simbol “₱”. Cara lain penulisan tanda peso Filipina adalah “PHP”, “PhP”, “Php”, dan/atau “P”.Uang logam dan uang kertas yang dibuat di Kompleks Pabrik Keamanan di Bangko Sentral ng Pilipinas. Peso sendiri artinya “berat”. Berasal dari bahasa Spanyol dan mengacu pada koin Spanyol yang dulu digunakan sebagai alat pembayaran. Tujuh negara tersebut tetap memakai nama peso sebagai mata uang resmi hingga saat ini. Selain itu, sebenarnya masih banyak negara lain yang sempat menggunakan nama ini. Kebanyakan dari mereka adalah negara-negara bekas koloni Spanyol. Orang Filipina sendiri menyebut mata uang mereka dengan nama Piso ng Pilipinas. Sedangkan bahasa Spanyol-nya Peso Filipino. Bahasa Inggris, bahasa internasional, dan Indonesia, menyebutnya Peso. Bank sentral negara pemilik lagu kebangsaan Lupang Hinirang (Tanah Terpilih) ini adalah Banko Sentral ng Pilipinas. Sedangkan yang bertugas mencetak uang mata uang Filipina yakni Kompleks Pabrik Keamanan.            
+                </p>
+                <h4 class="white">pecahan</h4>
+                <tr>
+                    <td>
+                        <button class="btn btn-primary"onclick="isiJumlah(1)">₱ 20</button>
+                    </td>
+					<button class="btn btn-secondary" onclick="isiJumlah(50)">₱ 50</button>
+					<button class="btn btn-secondary" onclick="isiJumlah(100)">₱ 100</button>
+					<button class="btn btn-secondary" onclick="isiJumlah(200)">₱ 200</button>
+					<button class="btn btn-secondary" onclick="isiJumlah(500)">₱ 500</button>
+                </tr>
+            </center>
+			<div class="row" id="konversi">
+				<div class="col-lg-6">
+					<select class="form-control" id="Dom">
+						<option value="PHP">Filipina (PHP)</option>
+					</select> <br>
+					<input min="0" class="form-control" type="number" name="jumlah" id="jumlah2"><br>
+				</div>
+				<div class="col-lg-6">
+					<select class="form-control" id="Sub">
+						<option value="MYR">Malaysia (MYR)</option>
+						<option value="IDR">Indonesia (IDR)</option>
+						<option value="THB">Thailand (THB)</option>
+						<option value="AUD">Australia (AUD)</option>
+						<option value="USD">Amerika (USD)</option>
+						<option value="GBP">Britania Raya (GBP)</option>
+						<option value="EUR">Eropa (EUR)</option>
+						<option value="CNY">China (CNY)</option>
+						<option value="KRW">Korea (KRW)</option>
+						<option value="SAR">Arab (SAR)</option>
+						<option value="JPY">Jepang (JPY)</option>
+						<option value="PHP">Filipina (PHP)</option>
+					</select> <br>
+					<textarea class="form-control" name="hasil2" id="hasil2"></textarea> <br>
+				</div>
+			</div>
+			<center>
+				<button type="button" onclick="klik2()" class="btn btn-primary" style="width: 160px;">Convert</button>
+			</center>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer>
+        <div class="container" style="padding: 10px; text-align: center;">
+        	<a class="link" href="#">Home</a>
+        	<a class="link" href="#amerika">Mata Uang</a>
+        	<a class="link" href="#about">About Us</a>
+        	<a class="link" href="#contact">Contact Us</a>
+        </div>
+        <div class="container" style="text-align: center;">
+        	<h6 id="sosmed"style="color: gray;">Connect With Us</h6>
+        	<a id="sosmed" href="instagram.com"><img src="img/ig.png" alt="instagram" style="width: 20px; height: 20px;"></a>
+        	<a id="sosmed" href="twitter.com"><img src="img/twitter.png" alt="twitter" style="width: 20px; height: 20px;"></a>
+        	<a id="sosmed" href="youtube.com"><img src="img/yt.png" alt="yt" style="width: 20px; height: 20px;"></a>
+        	<a id="sosmed" href="facebook.com"><img src="img/fb.png" alt="fb" style="width: 20px; height: 20px;"></a>
+        </div>
+        <p>2025 | Chitanda | Money Converter <a class="link"href="#">| Privasi Policy</a></p>
+    </footer>
+</body>
+</html>
